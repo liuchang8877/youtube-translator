@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: radial-gradient(circle at top left, rgba(255, 122, 89, 0.25), transparent 45%),
+    radial-gradient(circle at bottom right, rgba(183, 255, 216, 0.2), transparent 50%),
+    #11131a;
+  min-height: 100vh;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
